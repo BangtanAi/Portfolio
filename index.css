@@ -322,6 +322,7 @@ section {
     width: 100%;
     height: 100%;
     overflow-y: unset;
+    padding-left: 85px;
   }
   .work__items article .parent__block {
     width: 200px;
