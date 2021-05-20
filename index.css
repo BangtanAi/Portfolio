@@ -67,8 +67,8 @@ header {
 }
 
 .header__contacts img:hover {
-  -webkit-filter: invert(0.5) opacity(0.6);
-          filter: invert(0.5) opacity(0.6);
+  -webkit-filter: invert(0.5) opacity(1);
+          filter: invert(0.5) opacity(1);
 }
 
 section {
@@ -322,18 +322,25 @@ section {
     width: 100%;
     height: 100%;
     overflow-y: unset;
-    padding-left: 85px;
+    padding-left: 51px;
   }
   .work__items article .parent__block {
-    width: 200px;
-    height: 120px;
+    width: 270px;
+    height: 170px;
+  }
+  .work__items article h3 {
+    margin-top: -10px;
+    margin-bottom: 2px;
+  }
+  .work__items article p {
+    margin-bottom: 25px;
   }
   .work__items-button {
     top: 31%;
     left: 31%;
   }
   .line {
-    width: 200px;
+    width: 270px;
   }
 }
 /*# sourceMappingURL=index.css.map */
